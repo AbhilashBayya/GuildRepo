@@ -61,6 +61,16 @@
 		CB9FDD3615E9B34900B3713E /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		69BE2A861CDA255400F3C76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
+			remoteInfo = GuildBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -378,6 +388,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				69BE2A871CDA255400F3C76D /* PBXTargetDependency */,
 			);
 			name = GuildBrowserTests;
 			productName = GuildBrowserTests;
@@ -497,6 +508,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69BE2A871CDA255400F3C76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
+			targetProxy = 69BE2A861CDA255400F3C76D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CB9FDC4815E9872D00B3713E /* InfoPlist.strings */ = {
