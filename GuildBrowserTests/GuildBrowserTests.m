@@ -26,7 +26,9 @@
 
 - (void)testExample
 {
-   // STFail(@"Unit tests are not implemented yet in GuildBrowserTests");
+    
+    XCTFail(@"Timed out waiting for groups to empty.");
+    
 }
 
 @end
