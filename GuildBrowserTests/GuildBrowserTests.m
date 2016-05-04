@@ -24,11 +24,19 @@
     [super tearDown];
 }
 
-- (void)testExample
+//- (void)testExample
+//{
+//    
+//    XCTFail(@"Timed out waiting for groups to empty.");
+//    
+//}
+- (void)testThatItDoesURLEncoding
 {
+    // given
+    NSString *searchQuery = @"$&?@";
     
-    XCTFail(@"Timed out waiting for groups to empty.");
     
+    // then
+    XCTAssertEqualObjects(searchQuery, @"/search?q=%24%26%3F%40");
 }
-
 @end
