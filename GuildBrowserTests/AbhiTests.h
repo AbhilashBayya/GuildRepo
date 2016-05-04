@@ -8,6 +8,6 @@
 
 #import <XCTest/XCTest.h>
 
-@interface GuildBrowserTests : XCTestCase
+@interface AbhiTests : XCTestCase
 
 @end

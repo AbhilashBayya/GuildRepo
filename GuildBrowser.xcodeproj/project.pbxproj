@@ -17,7 +17,7 @@
 		CB9FDC5F15E9872E00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC6015E9872E00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC6815E9872E00B3713E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9FDC6615E9872E00B3713E /* InfoPlist.strings */; };
-		CB9FDC6B15E9872E00B3713E /* GuildBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDC6A15E9872E00B3713E /* GuildBrowserTests.m */; };
+		CB9FDC6B15E9872E00B3713E /* AbhiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDC6A15E9872E00B3713E /* AbhiTests.m */; };
 		CB9FDCD715E9A8DA00B3713E /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CB9FDCD815E9A8DA00B3713E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC515E9A8DA00B3713E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CB9FDCD915E9A8DA00B3713E /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC715E9A8DA00B3713E /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -76,8 +76,8 @@
 		CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC6515E9872E00B3713E /* GuildBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		CB9FDC6715E9872E00B3713E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CB9FDC6915E9872E00B3713E /* GuildBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuildBrowserTests.h; sourceTree = "<group>"; };
-		CB9FDC6A15E9872E00B3713E /* GuildBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuildBrowserTests.m; sourceTree = "<group>"; };
+		CB9FDC6915E9872E00B3713E /* AbhiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbhiTests.h; sourceTree = "<group>"; };
+		CB9FDC6A15E9872E00B3713E /* AbhiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbhiTests.m; sourceTree = "<group>"; };
 		CB9FDCC215E9A8DA00B3713E /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		CB9FDCC415E9A8DA00B3713E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -229,8 +229,8 @@
 		CB9FDC6315E9872E00B3713E /* GuildBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				CB9FDC6915E9872E00B3713E /* GuildBrowserTests.h */,
-				CB9FDC6A15E9872E00B3713E /* GuildBrowserTests.m */,
+				CB9FDC6915E9872E00B3713E /* AbhiTests.h */,
+				CB9FDC6A15E9872E00B3713E /* AbhiTests.m */,
 				CB9FDC6415E9872E00B3713E /* Supporting Files */,
 			);
 			path = GuildBrowserTests;
@@ -492,7 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9FDC6B15E9872E00B3713E /* GuildBrowserTests.m in Sources */,
+				CB9FDC6B15E9872E00B3713E /* AbhiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

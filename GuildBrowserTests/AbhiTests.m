@@ -6,30 +6,11 @@
 //  Copyright (c) 2012 Charlie Fulton. All rights reserved.
 //
 
-#import "GuildBrowserTests.h"
+#import "AbhiTests.h"
 
-@implementation GuildBrowserTests
+@implementation AbhiTests
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
-}
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
-
-//- (void)testExample
-//{
-//    
-//    XCTFail(@"Timed out waiting for groups to empty.");
-//    
-//}
 - (void)testThatItDoesURLEncoding
 {
     // given
