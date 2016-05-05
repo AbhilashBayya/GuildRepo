@@ -18,6 +18,6 @@
     
     
     // then
-    XCTAssertEqualObjects(searchQuery, @"/search?q=%24%26%3F%40");
+    XCTAssertEqualObjects(searchQuery, @"$&?@");
 }
 @end
